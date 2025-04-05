@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('runs/detect/train4/weights/best.pt')
 
 # Mở file video
-video_path = 'videohd.mp4'  # Thay bằng đường dẫn tới file video của bạn
+video_path = 'video.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Kiểm tra xem video có mở được không
