@@ -1,0 +1,7 @@
+path: dataset  # Đường dẫn đến thư mục dataset_split
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+names: ['With Helmet', 'Without Helmet', 'Rider', 'Number Plate', 'Pedestrian']
