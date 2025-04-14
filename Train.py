@@ -1,4 +1,4 @@
-from ultralytics import YOLO
+from ultralytics import YOLO # type: ignore
 
 # Load mô hình YOLOv8 Nano
 model = YOLO('yolov8n.pt')
@@ -10,3 +10,6 @@ model.train(
     imgsz=640,            # Kích thước ảnh
     batch=16               # Batch size nhỏ để test trên CPU
 )
+
+#chup man hinh luu bien so xe + link image -> lam sao lay duoc bien so xe? : ocr 
+#triger 
